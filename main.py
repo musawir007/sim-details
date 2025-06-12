@@ -3,7 +3,7 @@ import json
 
 # Your JSON string (truncated for brevity)
 import requests
-n = '03099127047'
+n = input("enter your number :- ")
 response = requests.get(
     f'https://simownerdetails.net.pk/wp-admin/admin-ajax.php?action=get_number_data&get_number_data=searchdata={n}'
 )
